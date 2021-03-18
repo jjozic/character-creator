@@ -1,6 +1,7 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  position: relative;
 }
 
 .maxWidthWrapper {
@@ -36,4 +37,12 @@
 
 .controlColumn {
   max-width: 50%;
+}
+
+.perspectiveBar {
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  top: 60%;
+  height: 40%;
+  width: 100%;
 }
